@@ -1,0 +1,29 @@
+﻿Build started 28.11.2016 11:05:14.
+     1>Project "H:\11 sem\ProcessingDLL4\ProcessingDLL4\ProcessingDLL4.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "H:\11 sem\ProcessingDLL4\x64\Debug\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\ProcessingDLL4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PROCESSINGDLL4_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\ProcessingDLL4.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PROCESSINGDLL4_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PROCESSINGDLL4_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\ProcessingDLL4.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ProcessingDLL4.cpp
+         ProcessingDLL4.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\ProcessingDLL4.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\ProcessingDLL4.obj
+         x64\Debug\stdafx.obj
+            Creating library H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.lib and object H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.exp
+         ProcessingDLL4.vcxproj -> H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\11 sem\ProcessingDLL4\x64\Debug\ProcessingDLL4.dll;#2" /manifest x64\Debug\ProcessingDLL4.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ProcessingDLL4.unsuccessfulbuild".
+         Touching "x64\Debug\ProcessingDLL4.lastbuildstate".
+     1>Done Building Project "H:\11 sem\ProcessingDLL4\ProcessingDLL4\ProcessingDLL4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81
